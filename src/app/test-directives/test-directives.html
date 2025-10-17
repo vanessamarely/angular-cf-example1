@@ -1,0 +1,35 @@
+<h1>Directives</h1>
+
+<h2>Structural Directives</h2>
+<h3>if</h3>
+<button (click)="toggle()">Show/Hide</button>
+
+@if (showElement){
+<p>This paragraph is conditionally rendered using *ngIf directive.</p>
+} @else {
+<p>The paragraph is hidden. Click the button to show it again.</p>
+}
+
+<hr />
+
+<h3>for</h3>
+<p>Framework list:</p>
+<ul>
+  @for(item of list; track item){
+  <li>{{ item }}</li>
+  }
+</ul>
+
+<hr />
+<h3>Highlight Directive</h3>
+<p appHighlight>This paragraph is highlighted using the appHighlight directive.</p>
+<p [appHighlight]="'lightgreen'">
+  Pass mouse over this paragraph to see the highlight effect custom color.
+</p>
+<p [appHighlight]="'#AEC6CF'">
+  Pass mouse over this paragraph to see the highlight effect custom color.
+</p>
+
+<hr />
+<h3>Hoverable Directive</h3>
+<p [appHoverable]="'lightblue'">Shows cursor and highlights on hover.</p>

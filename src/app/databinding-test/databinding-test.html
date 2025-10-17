@@ -1,0 +1,22 @@
+<h1>1. Interpolation and Property Binding</h1>
+<p>{{ title }}</p>
+
+<hr />
+
+<h2>Property Binding</h2>
+<img [src]="urlImage" [alt]="title" width="100" alt="angular-logo" />
+
+<button [disabled]="isDisabled">Click me!</button>
+
+<hr />
+
+<h2>Event Binding</h2>
+<button (click)="increment()">Increment</button>
+<p>Count: {{ count }}</p>
+
+<hr />
+
+<h2>Two-Way Data Binding</h2>
+<input [(ngModel)]="name" />
+<p>You wrote: {{ name }}</p>
+<hr />
