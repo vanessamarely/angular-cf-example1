@@ -1,59 +1,95 @@
-# AngularExample
+# Angular Fundamentals Practice Repository
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+Welcome to the Angular Fundamentals learning repository! This repository contains practical examples and step-by-step guides for learning Angular.
 
-## Development server
+## 📁 Repository Structure
 
-To start a local development server, run:
-
-```bash
-ng serve
+```
+angular-codigo-faicilito/
+├── practice-example.md          # Step-by-step practice guide
+├── angular-example/             # Complete Angular project example
+├── example-1/                   # Another Angular project example
+└── README.md                    # This file
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Getting Started
 
-## Code scaffolding
+### Option 1: Follow the Practice Guide (Recommended for Learning)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+📖 **Start with [`practice-example.md`](./practice-example.md)** - A comprehensive step-by-step tutorial that will guide you through:
 
-```bash
-ng generate component component-name
-```
+1. **Prerequisites** - Setting up Node.js and Angular CLI
+2. **Project Creation** - Creating a new Angular project with modern configurations
+3. **Data Binding** - Understanding interpolation, property binding, event binding, and two-way binding
+4. **Custom Directives** - Building attribute directives with advanced features
+5. **Modern Control Flow** - Using Angular's new `@if` and `@for` syntax
+6. **Component Architecture** - Proper component composition and organization
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+**Perfect for:** Beginners who want to understand Angular fundamentals by building everything from scratch.
 
-```bash
-ng generate --help
-```
+### Option 2: Explore Existing Projects
 
-## Building
+- **`angular-example/`** - A complete implementation following the practice guide
+- **`example-1/`** - Another Angular project example with additional features
 
-To build the project run:
+## 📚 What You'll Learn
 
-```bash
-ng build
-```
+- ✅ Modern Angular development practices
+- ✅ Data binding techniques
+- ✅ Custom directive creation
+- ✅ Component-based architecture
+- ✅ Angular CLI usage
+- ✅ TypeScript integration
+- ✅ Template syntax and control flow
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🛠️ Prerequisites
 
-## Running unit tests
+- Node.js (Latest LTS version)
+- Angular CLI: `npm install -g @angular/cli`
+- Basic knowledge of HTML, CSS, and JavaScript/TypeScript
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📖 How to Use This Repository
 
-```bash
-ng test
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vanessamarely/angular-cf-example1.git
+   cd angular-cf-example1
+   ```
 
-## Running end-to-end tests
+2. **Choose your learning path:**
+   - **For step-by-step learning:** Open [`practice-example.md`](./practice-example.md) and follow along
+   - **For exploring examples:** Navigate to `angular-example/` or `example-1/` directories
 
-For end-to-end (e2e) testing, run:
+3. **Install dependencies** (for existing projects):
+   ```bash
+   cd angular-example  # or example-1
+   npm install
+   ```
 
-```bash
-ng e2e
-```
+4. **Start development server:**
+   ```bash
+   ng serve
+   ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🎯 Learning Objectives
 
-## Additional Resources
+By the end of this practice, you will be able to:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Create Angular applications using modern best practices
+- Implement various data binding techniques
+- Build custom directives with advanced functionality
+- Use Angular's latest control flow syntax
+- Structure Angular applications properly
+- Work with Angular CLI effectively
+
+## 🤝 Contributing
+
+Feel free to contribute improvements, additional examples, or corrections to this learning repository.
+
+## 📄 License
+
+This project is for educational purposes. Feel free to use it for learning Angular fundamentals.
+
+---
+
+**Happy Learning! 🚀**
